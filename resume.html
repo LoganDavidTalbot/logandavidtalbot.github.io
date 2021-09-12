@@ -40,7 +40,13 @@ layout: main
 				</div>
 				
 				<div class="col text-start">
-					<p class="mb-0">Summarise your career here. <a class="theme-link" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank">You can make a PDF version of your resume using our free Sketch template here</a>. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
+					<p class="mb-0">
+						Highly technical and delivery focused {{ site.data.general.jobTitle | downcase }} with a driven to achieve and exceed goals and targets. 
+						He has strong credentials in the delivery of highly complex cloud based solutions which was developed mainly in the Azure and .NET Stack.
+						Logan has the key skills to lead the implementation of your software and provided servicers such as solution architecture, application development, 
+						and also creating Azure infrastructure that fellows your DevOps requirements. He has strong interest in cutting edge technologies and services to ensure that he
+						provides you an implementation that is secure, furture proof, and of course, meets your requirements. 
+					</p>
 				</div><!--//col-->
 			</div>
 		</div><!--//resume-intro-->
@@ -68,18 +74,38 @@ layout: main
 						</div><!--//item-->				
 						{% endfor %}
 					</section><!--//work-section-->
+
 					<section class="certificates-section py-3">
 						<h3 class="text-uppercase resume-section-heading mb-4">Certifications</h3>
-						{% for certs in site.data.certifications %}
-							{% if certs.level != 'Fundamentals' %}
-							<div class="item mb-3">
-								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ certs.title}}</h4>
-									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-right">{{ certs.issuer}} | {{ certs.issuerdate }}</div>
-								</div>
-							</div><!--//item-->		
-							{% endif %}			
-						{% endfor %}
+						<div class="item mb-3">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Expert Certications</h4>
+							</div>
+							<div class="item-content">
+								<ul class="resume-list">
+									{% for certs in site.data.certifications %}
+										{% if certs.level == 'Expert' %}
+											<li>{{ certs.title }}</li>
+										{% endif %}									
+									{% endfor %}
+									</ul>
+							</div>
+						</div><!--//item-->	
+						<div class="item mb-3">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Associate Certications</h4>
+							</div>
+							<div class="item-content">
+								<ul class="resume-list">
+									{% for certs in site.data.certifications %}
+										{% if certs.level == 'Associate' %}
+											<li>{{ certs.title }}</li>
+										{% endif %}									
+									{% endfor %}
+									</ul>
+							</div>
+						</div><!--//item-->	
+
 						<div class="item mb-3">
 							<div class="item-heading row align-items-center mb-2">
 								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Fundamentals Certications</h4>
@@ -151,7 +177,7 @@ layout: main
 								<h4 class="item-title">Professional</h4>
 								<ul class="list-unstyled resume-skills-list">
 									{% for skill in site.data.skills %}
-									{% if skill.type == 'Professional' %}
+										{% if skill.type == 'Professional' %}
 											<li class="mb-2">{{skill.value}}</li>	
 										{% endif %}												
 									{% endfor %}
@@ -203,9 +229,11 @@ layout: main
 				<hr>
 				<div class="resume-footer text-center">
 					<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/username</span></a></li>
-						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/username</span></a></li>
-						<li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>
+						{% for social in site.data.socials %}
+							{% if social.resume != null %}
+								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" target="_blank" href="{{ social.url }}"><i class="fab {{ social.resume.icon }} fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">{{ social.resume.text | downcase }}</span></a></li>
+							{% endif %}								
+						{% endfor %}
 					</ul>
 				</div><!--//resume-footer-->
 			</article>

@@ -3,18 +3,28 @@
   icon: twitter
   location: sidebar
   class: twitter
+  resume:
+    text: '@logandtalbot'
+    icon: fa-twitter-square
 
 - name: linkedin
   url: https://www.linkedin.com/in/logandavidtalbot/
   icon: linkedin-in
   location: sidebar
-  class: linkedin
+  class: linkedin 
+  resume:
+    text: github.com/LoganDavidTalbot
+    icon: fa-linkedin
 
 - name: GitHub
   url: https://github.com/LoganDavidTalbot
   icon: github-alt
   location: sidebar
   class: github
+  resume:
+    text: linkedin.com/in/logandavidtalbot
+    icon: fa-github-square
+
 
 - name: Blog
   url: https://medium.com/@logantalbot
