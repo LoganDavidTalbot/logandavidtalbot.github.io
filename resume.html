@@ -1,0 +1,213 @@
+---
+title: Resume
+layout: main
+---
+
+
+<section class="cta-section theme-bg-light py-5">
+	<div class="container text-center single-col-max-width">
+		<h2 class="heading mb-3">Online Resume</h2>
+		<a class="btn btn-primary" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank"><i class="fas fa-file-pdf me-2"></i>Download PDF Version</a>
+		
+		
+	</div><!--//container-->
+</section>
+<div class="container resume-container px-3 px-lg-5">
+	<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+		
+		<div class="resume-header">
+			<div class="row align-items-center">
+				<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+					<h2 class="resume-name mb-0 text-uppercase">Logan Talbot</h2>
+					<div class="resume-tagline mb-3 mb-md-0">Senior Software Engineer</div>
+				</div><!--//resume-title-->
+				<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+					<ul class="list-unstyled mb-0">
+						<!--<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a class="resume-link" href="tel:#">0123 4567 890</a></li>-->
+						<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a class="resume-link" href="mailto:logan@logantalbot.com">logan@logantalbot.com</a></li>
+						<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="{{site.baseurl}}/">logantalbot.com</a></li>
+						<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>UK, Manchester</li>
+					</ul>
+				</div><!--//resume-contact-->
+			</div><!--//row-->
+			
+		</div><!--//resume-header-->
+		<hr>
+		<div class="resume-intro py-3">
+			<div class="row align-items-center">
+				<div class="col-12 col-md-3 col-xl-2 text-center">
+					<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="{{ site.url }}assets/images/me/logansmartgrey.png" alt="image">
+				</div>
+				
+				<div class="col text-start">
+					<p class="mb-0">Summarise your career here. <a class="theme-link" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank">You can make a PDF version of your resume using our free Sketch template here</a>. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
+				</div><!--//col-->
+			</div>
+		</div><!--//resume-intro-->
+		<hr>
+		<div class="resume-body">
+			<div class="row">
+				<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
+					<section class="work-section py-3">
+						<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
+						{% for work in site.data.workexperiences %}
+						<div class="item mb-3">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ work.title}}</h4>
+								<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-right">{{ work.employer}} | {{ work.from }} - {{ work.to }}</div>
+								
+							</div>
+							<div class="item-content">
+								<p>{{ work.description }}</p>
+								<ul class="resume-list">
+								{% for point in work.points %}
+									<li>{{ point }}</li>
+								{% endfor %}		
+								</ul>
+							</div>
+						</div><!--//item-->				
+						{% endfor %}
+					</section><!--//work-section-->
+					<section class="certificates-section py-3">
+						<h3 class="text-uppercase resume-section-heading mb-4">Certifications</h3>
+						{% for certs in site.data.certifications %}
+							{% if certs.level != 'Fundamentals' %}
+							<div class="item mb-3">
+								<div class="item-heading row align-items-center mb-2">
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ certs.title}}</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-right">{{ certs.issuer}} | {{ certs.issuerdate }}</div>
+								</div>
+							</div><!--//item-->		
+							{% endif %}			
+						{% endfor %}
+						<div class="item mb-3">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Fundamentals Certications</h4>
+							</div>
+							<div class="item-content">
+								<ul class="resume-list">
+									{% for certs in site.data.certifications %}
+										{% if certs.level == 'Fundamentals' %}
+											<li>{{ certs.title }}</li>
+										{% endif %}									
+									{% endfor %}
+									</ul>
+							</div>
+						</div><!--//item-->	
+					</section><!--//work-section-->
+					
+					<section class="project-section py-3">
+						<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
+						<div class="item mb-3">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Lorem Ipsum</h4>
+								<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-right">Open Source</div>
+								
+							</div>
+							<div class="item-content">
+								<p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								
+								
+							</div>
+						</div><!--//item-->
+						<div class="item">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Sed Fringilla</h4>
+								<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-right">Open Source</div>
+								
+							</div>
+							<div class="item-content">
+								<p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								
+							</div>
+						</div><!--//item-->
+						<div class="item">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Praesent </h4>
+								<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-right">Open Source</div>
+								
+							</div>
+							<div class="item-content">
+								<p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								
+							</div>
+						</div><!--//item-->
+					</section><!--//project-section-->	
+				</div><!--//resume-main-->
+				<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+					<section class="skills-section py-3">
+						<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+						<div class="item">
+							<h4 class="item-title">Technical</h4>
+							<ul class="list-unstyled resume-skills-list">
+								{% for skill in site.data.skills %}
+									{% if skill.type == 'Technical' %}
+										<li class="mb-2">{{skill.value}}</li>	
+									{% endif %}												
+								{% endfor %}
+								</ul>
+							</div><!--//item-->
+							<div class="item">
+								<h4 class="item-title">Professional</h4>
+								<ul class="list-unstyled resume-skills-list">
+									{% for skill in site.data.skills %}
+									{% if skill.type == 'Professional' %}
+											<li class="mb-2">{{skill.value}}</li>	
+										{% endif %}												
+									{% endfor %}
+									</ul>
+								</div><!--//item-->
+							</section><!--//skills-section-->
+							<section class="education-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+								<ul class="list-unstyled resume-education-list">
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">BSc First Class Honors’ in Software Engineering</div>
+										<div class="resume-degree-org text-muted">UCLan</div>
+										<div class="resume-degree-time text-muted">2013 - 2017</div>
+									</li>
+								</ul>
+							</section><!--//education-section-->
+							<!--<section class="education-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Awards</h3>
+								<ul class="list-unstyled resume-awards-list">
+									<li class="mb-3">
+										<div class="font-weight-bold">Award Lorem Ipsum</div>
+										<div class="text-muted">Microsoft lorem ipsum (2019)</div>
+									</li>
+									<li>
+										<div class="font-weight-bold">Award Donec Sodales</div>
+										<div class="text-muted">Oracle Aenean (2017)</div>
+									</li>
+								</ul>
+							</section>--><!--//education-section-->
+							<section class="skills-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+								<ul class="list-unstyled resume-lang-list">
+									<li class="mb-2">English <span class="text-muted"></span></li>
+								</ul>
+							</section><!--//certificates-section-->
+							<section class="skills-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
+								<ul class="list-unstyled resume-interests-list mb-0">
+									<li class="mb-2">Technology</li>
+									<li class="mb-2">Gaming</li>
+									<li class="mb-2">5 aside football</li>
+									<li>Travelling</li>
+								</ul>
+							</section><!--//certificates-section-->
+							
+						</aside><!--//resume-aside-->
+					</div><!--//row-->
+				</div><!--//resume-body-->
+				<hr>
+				<div class="resume-footer text-center">
+					<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/username</span></a></li>
+						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="#"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/username</span></a></li>
+						<li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>
+					</ul>
+				</div><!--//resume-footer-->
+			</article>
+			
+</div><!--//container-->

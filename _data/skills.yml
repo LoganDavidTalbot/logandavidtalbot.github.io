@@ -1,0 +1,53 @@
+- value: Azure
+  icon: fas fa-cloud
+  text: Using IaaS, PaaS, & serverless Azure Services to develop and design complex cloud solutions.
+  type: Technical
+  core: true
+
+- value: Azure DevOps
+  icon: fas fa-code-branch
+  text: Creating CI & CD pipelines to manage and deploy applications and Azure services.
+  type: Technical
+  core: true
+
+- value: .NET & C#
+  icon: fas fa-code
+  text: Bespoke .NET RESTful server-side applications.  
+  type: Technical
+  core: true
+
+- value: AI Services
+  icon: fas fa-robot
+  text: Incorporating artificial intelligence into cloud applications. 
+  type: Technical
+  core: true
+
+- value: Architecting Cloud Applications
+  icon: fas fa-project-diagram
+  text: Architecting secure applications to clients needs.
+  type: Technical
+  core: true
+
+- value: Leading project developement
+  icon: fas fa-route
+  text: Leading multiple projects from the cloud development side.
+  type: Professional
+  core: true
+
+- value: Managing Developers
+  icon: fas fa-people-carry
+  text: Managing multiple developers to ensure they reach their true potential.
+  type: Professional
+  core: true
+
+- value: Improvement of others
+  icon: fas fa-award
+  text: Leading efforts to improvement certifications and training of colleagues.
+  type: Professional
+  core: true
+
+- value: Presentation
+  icon: fas fa-award
+  text: Presenting to client and internal colleagues constantly. This tends to be upwards on over 100 poeple on a regular basis.
+  type: Professional
+  core: false

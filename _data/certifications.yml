@@ -1,0 +1,101 @@
+- title: 'Azure Solutions Architect Expert'
+  issuer: Microsoft
+  description: Earning the Azure Solutions Architect Expert certification demonstrates skills and knowledge to advise stakeholders and translate business requirements into secure, scalable, and reliable solutions. Candidates have advanced experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance–this role should manage how decisions in each area affect an overall solution.
+  issuerdate: 2021
+  link: https://www.credly.com/badges/0e900faf-4f36-48f3-a449-53077fc9ab75
+  level: Expert
+  thumbnail: microsoft-certified-expert-badge.svg
+  filters:
+    - Expert
+    - Azure
+    - Featured
+
+- title: 'DevOps Engineer Expert'
+  issuer: Microsoft
+  description: Earning the DevOps Engineer Expert certification demonstrates the ability to combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives. DevOps professionals streamline delivery by optimizing practices, improving communications and collaboration, and creating automation.
+  issuerdate: 2020
+  link: https://www.credly.com/badges/0e900faf-4f36-48f3-a449-53077fc9ab75
+  thumbnail: microsoft-certified-expert-badge.svg
+  filters:
+    - Expert
+    - Azure
+    - Featured
+
+- title: 'Azure Security Engineer Associate'
+  issuer: Microsoft
+  description: Earning Azure Security Engineer Associate certification validates the skills and knowledge to implement security controls and threat protection, manage identity and access, and protect data, applications, and networks in cloud and hybrid environments as part of end-to-end infrastructure.
+  issuerdate: 2021
+  link: https://www.credly.com/badges/e74788ca-11d1-4a01-bbc8-d91e68f8333f
+  level: Associate
+  thumbnail: microsoft-certified-associate-badge.svg
+  filters:
+    - Associate
+    - Azure
+    - Featured
+
+- title: 'Azure Administrator Associate'
+  issuer: Microsoft
+  description: Earning Azure Administrator Associate certification validates the skills and knowledge to implement, manage, and monitor an organization’s Microsoft Azure environment. Candidates have a deep understanding of each implementing, managing, and monitoring identity, governance, storage, compute, and virtual networks in a cloud environment, plus provision, size, monitor, and adjust resources, when needed.
+  issuerdate: 2021
+  link: https://www.credly.com/badges/900e3828-ff60-40b4-8063-6052635803a1
+  level: Associate
+  thumbnail: microsoft-certified-associate-badge.svg
+  filters:
+    - Associate
+    - Azure
+
+- title: 'Azure AI Engineer Associate'
+  issuer: Microsoft
+  description: Earning the Azure AI Engineer Associate certification validates the skills and knowledge required to build, manage, and deploy AI solutions that leverage Azure Cognitive Services, Azure Cognitive Search, and Microsoft Bot Framework. Candidates understand the components that make up the Azure AI portfolio.
+  issuerdate: 2020
+  link: https://www.credly.com/badges/e74788ca-11d1-4a01-bbc8-d91e68f8333f
+  level: Associate
+  thumbnail: microsoft-certified-associate-badge.svg
+  filters:
+    - Associate
+    - Azure
+    - Featured
+
+- title: 'Azure Developer Associate'
+  issuer: Microsoft
+  description: Earning Azure Developer Associate certification validates the skills and knowledge to design, build, test, and maintain cloud applications and services on Microsoft Azure. Candidates participate in all phases of cloud development from requirements definition and design, to development, deployment, and maintenance.
+  issuerdate: 2020
+  link: https://www.credly.com/badges/7a27043e-69c0-4665-94ee-2700d9313134
+  level: Associate
+  thumbnail: microsoft-certified-associate-badge.svg
+  filters:
+    - Associate
+    - Azure
+
+- title: 'Azure Data Fundamentals'
+  issuer: Microsoft
+  description: Earners of the Azure Data Fundamentals certification have demonstrated foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
+  issuerdate: 2020
+  link: https://www.credly.com/badges/16022105-1b59-4833-8454-ab6afcc6d515
+  level: Fundamentals
+  thumbnail: microsoft-certified-fundamentals-badge.svg
+  filters:
+    - Fundamentals
+    - Azure
+
+- title: 'Azure AI Fundamentals'
+  issuer: Microsoft
+  description: Earners of the Azure AI Fundamentals certification have demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.
+  issuerdate: 2020
+  link: https://www.credly.com/badges/5021ad31-b2d3-49ab-ac57-cefc387b9894
+  level: Fundamentals
+  thumbnail: microsoft-certified-fundamentals-badge.svg
+  filters:
+    - Fundamentals
+    - Azure
+
+- title: 'Azure Fundamentals'
+  issuer: Microsoft
+  description: Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.
+  issuerdate: 2019
+  link: https://www.credly.com/badges/c14a65e9-1bbd-4a19-a573-72b7f6f7d0db
+  level: Fundamentals
+  thumbnail: microsoft-certified-fundamentals-badge.svg
+  filters:
+    - Fundamentals
+    - Azure

@@ -1,0 +1,62 @@
+---
+title: Certifications
+layout: main
+---	    
+<section class="cta-section theme-bg-light py-5">
+	<div class="container text-center single-col-max-width">
+		<h2 class="heading">Certifications</h2>
+		<div class="intro">
+		<p>The full list of valid certifications. Want some help building your software?</p>
+		
+		</div>
+		<a class="btn btn-primary" href="{{ site.url }}/contact"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
+		
+		
+	</div><!--//container-->
+</section>
+<section class="projects-list px-3 py-5 p-md-5">
+	<div class="container">
+		<div class="text-center">
+			<ul id="filters" class="filters mb-5 mx-auto   ps-0">
+				<li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".featured">Featured</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".expert">Expert</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".associate">Associate</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".fundamentals">Fundamentals</li>
+			</ul><!--//filters-->
+		</div>
+		
+		<div class="project-cards row isotope">
+			{% for certs in site.data.certifications %}
+			<div class="isotope-item col-md-6 mb-5 {% for filter in certs.filters %} {{ filter | downcase }} {% endfor %}">
+				<div class="card project-card">
+					<div class="row">
+						<div class="col-12 col-xl-5 card-img-holder">
+							<img src="{{site.url}}/assets/images/certification/{{certs.thumbnail}}" class="card-img" alt="image">
+						</div>
+						<div class="col-12 col-xl-7">
+							<div class="card-body">
+								<h5 class="card-title"><a href="{{ certs.link }}" target="_blank" class="theme-link" >{{ certs.title }}</a></h5>
+								<p class="card-text">{{ certs.description | truncate: 100 }}</p>
+								<p class="card-text">
+									<small class="text-muted">Issuer: {{ certs.issuer}} | Year: {{ certs.issuerdate}}</small>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="link-mask">
+						<a class="link-mask-link" target="_blank" href="{{ certs.link }}"></a>
+						<div class="link-mask-text">
+							<a class="btn btn-secondary"target="_blank"  href="{{ certs.link }}">
+								<i class="fas fa-eye me-2"></i>Verify Certification
+							</a>
+						</div>
+					</div><!--//link-mask-->
+				</div><!--//card-->
+			</div><!--//col-->											
+			{% endfor %}
+		</div><!--//row-->
+	
+	</div>
+</section>
+

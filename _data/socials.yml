@@ -1,0 +1,39 @@
+- name: Twitter
+  url: https://twitter.com/logandtalbot
+  icon: twitter
+  location: sidebar
+  class: twitter
+
+- name: linkedin
+  url: https://www.linkedin.com/in/logandavidtalbot/
+  icon: linkedin-in
+  location: sidebar
+  class: linkedin
+
+- name: GitHub
+  url: https://github.com/LoganDavidTalbot
+  icon: github-alt
+  location: sidebar
+  class: github
+
+- name: Blog
+  url: https://medium.com/@logantalbot
+  icon: medium-m
+  location: nav
+  class: medium
+
+- name: YouTube
+  url: https://www.youtube.com/channel/UCrK7XEFrx6I7P-PsCP3SlVg
+  icon: youtube
+  location: nav
+  class: youtube
+
+- name: Instagram
+  url: https://www.instagram.com/logandavidtalbot/
+  icon: instagram
+  class: instagram
+
+- name: Twitch
+  url: https://www.twitch.tv/loglt
+  icon: twitch
+  class: twitch
