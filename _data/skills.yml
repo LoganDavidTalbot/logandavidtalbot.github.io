@@ -4,6 +4,12 @@
   type: Technical
   core: true
 
+- value: Power Platform
+  icon: fas fa-cloud
+  text: Using the Power Platform to architect complex business cloud applications.  
+  type: Technical
+  core: false
+
 - value: Azure DevOps
   icon: fas fa-code-branch
   text: Creating CI & CD pipelines to manage and deploy applications and Azure services.
@@ -24,7 +30,7 @@
 
 - value: Architecting Cloud Applications
   icon: fas fa-project-diagram
-  text: Architecting secure applications to clients needs.
+  text: Architecting secure applications to clients needs on Microsoft's Cloud Solutions.
   type: Technical
   core: true
 

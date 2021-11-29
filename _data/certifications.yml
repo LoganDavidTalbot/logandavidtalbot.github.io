@@ -22,6 +22,18 @@
     - Azure
     - Featured
 
+- title: 'Power Platform Solution Architect Expert'
+  issuer: Microsoft
+  description: Earning the Power Platform Solution Architect Expert certification demonstrates functional and technical knowledge of Power Platform, Dynamics 365 customer engagement apps, related Microsoft cloud solutions, and third-party technologies.
+  issuerdate: 2021
+  link: https://www.credly.com/badges/0e900faf-4f36-48f3-a449-53077fc9ab75
+  level: Expert
+  thumbnail: microsoft-certified-expert-badge.svg
+  filters:
+    - Expert
+    - PowerPlatform
+    - Featured
+
 - title: 'Azure Security Engineer Associate'
   issuer: Microsoft
   description: Earning Azure Security Engineer Associate certification validates the skills and knowledge to implement security controls and threat protection, manage identity and access, and protect data, applications, and networks in cloud and hybrid environments as part of end-to-end infrastructure.
@@ -55,7 +67,6 @@
   filters:
     - Associate
     - Azure
-    - Featured
 
 - title: 'Azure Developer Associate'
   issuer: Microsoft
@@ -67,6 +78,17 @@
   filters:
     - Associate
     - Azure
+
+- title: 'Power Platform Functional Consultant Associate'
+  issuer: Microsoft
+  description: Earning Power Platform Functional Consultant Associate certification validates the skills and applied knowledge of the Power Platform, including a practical understanding of capabilities, boundaries, and constraints. Candidates have experience in using Power Platform maker tools to create solutions that use the Power Platform and Microsoft 365. Certified Functional Consultants have proficiency in data modeling, user experience design, requirements analysis, and process analysis.
+  issuerdate: 2021
+  link: https://www.credly.com/badges/7a27043e-69c0-4665-94ee-2700d9313134
+  level: Associate
+  thumbnail: microsoft-certified-associate-badge.svg
+  filters:
+    - Associate
+    - PowerPlatform
 
 - title: 'Azure Data Fundamentals'
   issuer: Microsoft
