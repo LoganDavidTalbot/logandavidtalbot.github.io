@@ -2,11 +2,14 @@
   employer: Capgemini
   from: 2021
   to: Present
-  description: ffgvfdgfds
+  description: >-
+    Logan drives strategy and innovation to support and improve business capabilities, processes, and applications
+     in the Cloud for a variety of Capgemini’s clients. Supporting them in adopting or advancing their use of Microsoft Cloud services. 
+      Logan will architect and lead the implementation of solutions ensuring than applications are delivered to clients high expectations. 
   points:
     - Leading the implementation of full stack applications (including DevOps).
-    - Architecting secure cloud based solutions on Azure. 
-    - Managing junior to middle level software engineers.
+    - Architecting secure cloud based solutions on Microsoft Cloud. 
+    - Managing team(s) software engineers.
     - >- 
       Leading internal initiatives to help develop and improve the business unit. 
       For example, leading of training initiative which aims to increase certification and training.
@@ -16,14 +19,18 @@
   employer: Capgemini
   from: 2017
   to: 2021
-  description: ffgvfdgfds
+  description: >- 
+    Developing and delivering some of the most innovative software solutions available for Capgemini's clients, 
+    using Microsoft Cloud technologies. Logan has worked in a cloud-first environment, with a strong focus on serverless, 
+    microservices and containerisation, seeing them through from design and into production. With a demonstrable agile 
+    mind-set and approach, having ample opportunity to illustrate his love of development and passion for technology.
   points:
-    - ddfd
-    - ffgvv
-    - fvdf
+    - Developing cloud first applications on Azure. 
+    - Creating endback services in .NET.
+    - Implementing DevOps principles on projects to ensure fully CI/CD managed applications.
 
 - title: Junior Software Engineer
   employer: Amey
   from: 2015
   to: 2016
-  description: .NET service and JavaScript frontend development.
+  description: .NET service and JavaScript frontend development for applications in the Rail Industry.
