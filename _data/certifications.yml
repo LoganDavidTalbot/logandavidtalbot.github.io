@@ -2,7 +2,7 @@
   issuer: Microsoft
   description: Earning the Azure Solutions Architect Expert certification demonstrates skills and knowledge to advise stakeholders and translate business requirements into secure, scalable, and reliable solutions. Candidates have advanced experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance–this role should manage how decisions in each area affect an overall solution.
   issuerdate: 2021
-  link: https://www.credly.com/badges/0e900faf-4f36-48f3-a449-53077fc9ab75
+  link: https://www.credly.com/badges/1fe3df0e-21a3-4ad8-8904-87b599c2248d
   level: Expert
   thumbnail: microsoft-certified-expert-badge.svg
   filters:
@@ -61,7 +61,7 @@
   issuer: Microsoft
   description: Earning the Azure AI Engineer Associate certification validates the skills and knowledge required to build, manage, and deploy AI solutions that leverage Azure Cognitive Services, Azure Cognitive Search, and Microsoft Bot Framework. Candidates understand the components that make up the Azure AI portfolio.
   issuerdate: 2020
-  link: https://www.credly.com/badges/e74788ca-11d1-4a01-bbc8-d91e68f8333f
+  link: https://www.credly.com/badges/bcbc4078-0acb-4e3c-84d4-a105928557f8
   level: Associate
   thumbnail: microsoft-certified-associate-badge.svg
   filters:

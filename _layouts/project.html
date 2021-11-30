@@ -1,0 +1,49 @@
+---
+title: Project
+layout: main
+---
+
+<section class="cta-section theme-bg-light py-5">
+	<div class="container single-col-max-width">
+		<h2 class="heading text-center">{{ page.title }}</h2>
+		<div class="project-intro text-center">
+			<p class="mb-0 lead">{{ page.projectIntro }} </p>
+		</div>
+		
+	</div><!--//container-->
+</section>
+<section class="project px-3 py-5 p-md-5">
+	<div class="container">
+		<div class="project-meta theme-bg-light p-4">
+			<div class="row g-4 g-lg-5">
+				<div class="col-md-5 col-lg-4 col-xxl-3 d-none d-md-block">
+					<img class="project-thumb img-fluid rounded" src="{{site.baseurl}}/assets/images/project/project-3.jpg" alt="">
+				</div><!--//col-->
+				<div class="col-12 col-md-7 col-lg-8 col-xxl-9">
+					<div class="client-info">
+						<h3 class="client-name font-weight-bold mb-4">{{ page.clientName }}</h3>
+						<ul class="client-meta list-unstyled">
+							<li class="mb-2"><i class="fas fa-industry fa-fw me-2"></i><strong>Industry:</strong> {{ page.industry }}</li>
+							<li class="mb-2"><i class="fas fa-users fa-fw me-2"></i><strong>Size:</strong> {{ page.size }}</li>
+							<li class="mb-2"><strong><i class="fas fa-link fa-fw me-2"></i>Website:</strong> <a class="theme-link" href="#">clientsite.com</a></li>
+							
+						</ul>
+						<div class="client-bio mb-4">{{ page.clientDescription }}</div>
+						<h4 class="subheading mb-3"><i class="fas fa-exclamation-circle fa-fw me-2"></i>Capgemini Client, identifiable client information has been remove to follow company policy.</h4>
+					</div><!--//client-info-->					
+				</div><!--//col-->
+			</div><!--//row-->
+		</div><!--//project-meta-->
+		<div class="project-sections py-5">
+			{{ content }}
+		</div>
+	</div>
+</section>
+
+<section class="promo-section theme-bg-light py-5 text-center">
+	<div class="container single-col-max-width">
+		<h2 class="title">Want me to help with your project?</h2>
+		<div class="text-center"><a class="btn btn-primary" href="{{site.baseurl}}/contact" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a></div>
+	</div><!--//container-->
+</section><!--//promo-section-->
+
