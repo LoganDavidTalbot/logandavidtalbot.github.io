@@ -41,12 +41,13 @@ layout: main
 				
 				<div class="col text-start">
 					<p class="mb-0">
-						Highly technical and delivery focused {{ site.data.general.jobTitle | downcase }} with a drive to achieve and exceed goals and targets. 
-						Logan is heavily battle tested individual in the delivery of highly complex Microsoft Cloud based solutions for more than 6 years.
-						He has further solidfied his knowledge with 9 certifications in the Microsoft Cloud with 3 of them to an expert level in DevOps, Azure and Power Platform architecture.
-						Logan has the key skills to lead the implementation of your software and provided services such as solution architecture, application development, 
-						and also creating cloud infrastructure that fellows your DevOps requirements. 		
-						He has strong interest in cutting edge technologies and services to ensure that he provides you an implementation that is secure, furture proof, and of course, meets your requirements. 
+						Highly technical and delivery focused {{ site.data.general.jobTitle | downcase }} with a drive to achieve and exceed goals and targets.
+						Logan is a heavy battle-tested individual in the delivery of highly complex Microsoft Cloud-based solutions for more than 6 years. 
+						He has further solidified his knowledge with 9 certifications in the Microsoft Cloud with 3 of them to an expert level in DevOps, Azure, and Power Platform architecture. 
+						Logan has the key skills to lead the implementation of your software and provide services such as solution architecture, application development
+						, and also creating cloud infrastructure that fellows your DevOps requirements. 
+						He has a strong interest in cutting-edge technologies and services to ensure that he provides you with an implementation 
+						that is secure, future-proof, and of course, meets your requirements.
 					</p>
 				</div><!--//col-->
 			</div>
@@ -66,11 +67,14 @@ layout: main
 							</div>
 							<div class="item-content">
 								<p>{{ work.description }}</p>
-								<ul class="resume-list">
-								{% for point in work.points %}
-									<li>{{ point }}</li>
-								{% endfor %}		
-								</ul>
+								{% if work.points %}
+									<strong>Key points:</strong>									
+									<ul class="resume-list">																
+									{% for point in work.points %}
+										<li>{{ point }}</li>
+									{% endfor %}											
+									</ul>
+								{% endif %}	
 							</div>
 						</div><!--//item-->				
 						{% endfor %}

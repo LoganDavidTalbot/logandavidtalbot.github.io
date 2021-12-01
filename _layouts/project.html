@@ -1,6 +1,7 @@
 ---
 title: Project
 layout: main
+capgeminiClient: true
 ---
 
 <section class="cta-section theme-bg-light py-5">
@@ -17,7 +18,7 @@ layout: main
 		<div class="project-meta theme-bg-light p-4">
 			<div class="row g-4 g-lg-5">
 				<div class="col-md-5 col-lg-4 col-xxl-3 d-none d-md-block">
-					<img class="project-thumb img-fluid rounded" src="{{site.baseurl}}/assets/images/project/project-3.jpg" alt="">
+					<img class="project-thumb img-fluid rounded" src="{{site.baseurl}}/assets/images/project/{{ page.clientImage }}" alt="">
 				</div><!--//col-->
 				<div class="col-12 col-md-7 col-lg-8 col-xxl-9">
 					<div class="client-info">
@@ -25,11 +26,15 @@ layout: main
 						<ul class="client-meta list-unstyled">
 							<li class="mb-2"><i class="fas fa-industry fa-fw me-2"></i><strong>Industry:</strong> {{ page.industry }}</li>
 							<li class="mb-2"><i class="fas fa-users fa-fw me-2"></i><strong>Size:</strong> {{ page.size }}</li>
-							<li class="mb-2"><strong><i class="fas fa-link fa-fw me-2"></i>Website:</strong> <a class="theme-link" href="#">clientsite.com</a></li>
-							
+							<li class="mb-2"><i class="fas fa-calendar fa-fw me-2"></i><strong>Year:</strong> {{ page.yearStart }} - {{ page.yearEnd }}</li>
+							{% if page.clientWebsite %}
+								<li class="mb-2"><strong><i class="fas fa-link fa-fw me-2"></i>Website:</strong> <a class="theme-link" href="{{ page.clientWebsite }}">{{ page.clientWebsite }}</a></li>
+							{% endif %}
 						</ul>
 						<div class="client-bio mb-4">{{ page.clientDescription }}</div>
+						{% if page.capgeminiClient == true %}
 						<h4 class="subheading mb-3"><i class="fas fa-exclamation-circle fa-fw me-2"></i>Capgemini Client, identifiable client information has been remove to follow company policy.</h4>
+						{% endif %}
 					</div><!--//client-info-->					
 				</div><!--//col-->
 			</div><!--//row-->
