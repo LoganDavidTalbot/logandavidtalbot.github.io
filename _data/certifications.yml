@@ -1,3 +1,13 @@
+- title: 'Microsoft Certified Trainer'
+  issuer: Microsoft
+  description: 'Many of Microsoft’s software and technologies are technically complex, and professionals may require training from knowledgeable trainers in aspects of their use. In order to make such training generally available, Microsoft has developed the Microsoft Certified Trainer (MCT) Program which grants membership to professional trainers and learning consultants who demonstrate and maintain technical and instructional expertise on Microsoft technologies and who have complied with all requirements.'
+  issuerdate: 2022
+  link: https://www.credly.com/badges/1bb39633-b168-4734-aa5e-4922fc62fa6c
+  level: Expert
+  thumbnail: Microsoft Certified Trainer.png
+  filters:
+    - Microsoft
+
 - title: 'Azure Solutions Architect Expert'
   issuer: Microsoft
   description: Earning the Azure Solutions Architect Expert certification demonstrates skills and knowledge to advise stakeholders and translate business requirements into secure, scalable, and reliable solutions. Candidates have advanced experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance–this role should manage how decisions in each area affect an overall solution.
@@ -33,6 +43,17 @@
     - Expert
     - PowerPlatform
     - Featured
+
+- title: 'Azure IoT Developer Specialty'
+  issuer: Microsoft
+  description: Earning the Azure IoT Developer Specialty certification validates experience and knowledge for the implementation and the coding required to create and maintain the cloud and edge portion of an IoT solution. In addition to configuring and maintaining the devices by using cloud services, the IoT Developer also sets up the physical devices. The IoT Developer is responsible for maintaining the devices throughout the life cycle.
+  issuerdate: 2022
+  link: https://www.credly.com/badges/afb1eb29-57f6-4ab0-b0e4-79094e5c5398
+  level: Specialty
+  thumbnail: microsoft-certified-specialty-badge.svg
+  filters:
+    - Specialty
+    - Azure
 
 - title: 'Azure Security Engineer Associate'
   issuer: Microsoft
@@ -89,6 +110,17 @@
   filters:
     - Associate
     - PowerPlatform
+
+- title: 'Google Cloud Digital Leader'
+  issuer: Google Cloud
+  description: A successful candidate can articulate the capabilities of Google Cloud core products and services and how they benefit organizations. The candidate can also describe common business use cases and how cloud solutions support an enterprise.
+  issuerdate: 2022
+  link: https://www.credential.net/2f044f84-7fb0-4928-aef7-92233eb08ccc
+  level: Fundamentals
+  thumbnail: 'Google Cloud Leader Badge.png'
+  filters:
+    - Fundamentals
+    - GoogleCloud
 
 - title: 'Azure Data Fundamentals'
   issuer: Microsoft
