@@ -93,9 +93,23 @@ layout: main
 											<li>{{ certs.title }}</li>
 										{% endif %}									
 									{% endfor %}
-									</ul>
+								</ul>
 							</div>
 						</div><!--//item-->	
+						<div class="item mb-3">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Specialty Certifications</h4>
+							</div>
+							<div class="item-content">
+								<ul class="resume-list">
+									{% for certs in site.data.certifications %}
+										{% if certs.level == 'Specialty' %}
+											<li>{{ certs.title }}</li>
+										{% endif %}									
+									{% endfor %}
+								</ul>
+							</div>
+						</div><!--//item-->							
 						<div class="item mb-3">
 							<div class="item-heading row align-items-center mb-2">
 								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Associate Certifications</h4>
@@ -107,7 +121,7 @@ layout: main
 											<li>{{ certs.title }}</li>
 										{% endif %}									
 									{% endfor %}
-									</ul>
+								</ul>
 							</div>
 						</div><!--//item-->	
 
@@ -122,7 +136,21 @@ layout: main
 											<li>{{ certs.title }}</li>
 										{% endif %}									
 									{% endfor %}
-									</ul>
+								</ul>
+							</div>
+						</div><!--//item-->
+						<div class="item mb-3">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Other Certifications</h4>
+							</div>
+							<div class="item-content">
+								<ul class="resume-list">
+									{% for certs in site.data.certifications %}
+										{% if certs.level == 'Other' %}
+											<li>{{ certs.title }}</li>
+										{% endif %}									
+									{% endfor %}
+								</ul>
 							</div>
 						</div><!--//item-->	
 					</section><!--//work-section-->

@@ -3,10 +3,11 @@
   description: 'Many of Microsoft’s software and technologies are technically complex, and professionals may require training from knowledgeable trainers in aspects of their use. In order to make such training generally available, Microsoft has developed the Microsoft Certified Trainer (MCT) Program which grants membership to professional trainers and learning consultants who demonstrate and maintain technical and instructional expertise on Microsoft technologies and who have complied with all requirements.'
   issuerdate: 2022
   link: https://www.credly.com/badges/1bb39633-b168-4734-aa5e-4922fc62fa6c
-  level: Expert
+  level: Other
   thumbnail: Microsoft Certified Trainer.png
   filters:
     - Microsoft
+    - Other
 
 - title: 'Azure Solutions Architect Expert'
   issuer: Microsoft
