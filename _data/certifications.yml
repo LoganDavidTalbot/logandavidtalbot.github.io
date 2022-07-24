@@ -45,6 +45,18 @@
     - PowerPlatform
     - Featured
 
+- title: 'AWS Certified Solutions Architect – Associate'
+  issuer: Amazon Web Services
+  description: Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.
+  issuerdate: 2023
+  link: https://www.credly.com/badges/fca52c35-8ebc-466e-beb7-a84efd40fca2/public_url
+  level: Associate
+  thumbnail: aws-certified-solutions-architect-associate.png
+  filters:
+    - Associate
+    - AWS
+    - Featured
+
 - title: 'Azure IoT Developer Specialty'
   issuer: Microsoft
   description: Earning the Azure IoT Developer Specialty certification validates experience and knowledge for the implementation and the coding required to create and maintain the cloud and edge portion of an IoT solution. In addition to configuring and maintaining the devices by using cloud services, the IoT Developer also sets up the physical devices. The IoT Developer is responsible for maintaining the devices throughout the life cycle.
@@ -66,7 +78,6 @@
   filters:
     - Associate
     - Azure
-    - Featured
 
 - title: 'Azure Administrator Associate'
   issuer: Microsoft
