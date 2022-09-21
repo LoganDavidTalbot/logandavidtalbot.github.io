@@ -21,6 +21,18 @@
     - Azure
     - Featured
 
+- title: 'Cybersecurity Architect Expert'
+  issuer: Microsoft
+  description: Earning Cybersecurity Architect Expert validates subject matter expertise in designing and evolving the cybersecurity strategy to protect an organization’s mission and business processes across all aspects of the enterprise architecture.
+  issuerdate: 2022
+  link: https://www.credly.com/badges/8102e350-5176-42d3-ae72-764ebe4f9036/public_url
+  level: Expert
+  thumbnail: microsoft-certified-expert-badge.svg
+  filters:
+    - Expert
+    - Azure
+    - Featured
+
 - title: 'DevOps Engineer Expert'
   issuer: Microsoft
   description: Earning the DevOps Engineer Expert certification demonstrates the ability to combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives. DevOps professionals streamline delivery by optimizing practices, improving communications and collaboration, and creating automation.
