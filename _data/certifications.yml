@@ -1,10 +1,10 @@
 - title: 'Microsoft Certified Trainer'
   issuer: Microsoft
   description: 'Many of Microsoft’s software and technologies are technically complex, and professionals may require training from knowledgeable trainers in aspects of their use. In order to make such training generally available, Microsoft has developed the Microsoft Certified Trainer (MCT) Program which grants membership to professional trainers and learning consultants who demonstrate and maintain technical and instructional expertise on Microsoft technologies and who have complied with all requirements.'
-  issuerdate: 2022
-  link: https://www.credly.com/badges/1bb39633-b168-4734-aa5e-4922fc62fa6c/public_url
+  issuerdate: 2023
+  link: https://www.credly.com/badges/aa97969b-9ee3-4029-a007-0a7e360594b7/public_url
   level: Other
-  thumbnail: Microsoft Certified Trainer.png
+  thumbnail: microsoft-certified-trainer-2023-2024.png
   filters:
     - Microsoft
     - Other
@@ -69,6 +69,17 @@
     - AWS
     - Featured
 
+- title: 'HashiCorp Certified: Terraform Associate'
+  issuer: HashiCorp
+  description: 'Earners of the HashiCorp Certified: Terraform Associate certification know the basic concepts, skills, and use cases associated with open source HashiCorp Terraform. They understand and can utilize Terraform according to the certification objectives. Additionally, they understand why enterprises choose to extend Terraform Open Source with Terraform Enterprise to solve business critical objectives.'
+  issuerdate: 2023
+  link: https://www.credly.com/earner/earned/badge/3680adc9-18d0-416e-943a-af891f854de6/public_url
+  level: Associate
+  thumbnail: hashicorp-certified-terraform-associate-002.png
+  filters:
+    - HashiCorp
+    - Associate
+
 - title: 'Azure IoT Developer Specialty'
   issuer: Microsoft
   description: Earning the Azure IoT Developer Specialty certification validates experience and knowledge for the implementation and the coding required to create and maintain the cloud and edge portion of an IoT solution. In addition to configuring and maintaining the devices by using cloud services, the IoT Developer also sets up the physical devices. The IoT Developer is responsible for maintaining the devices throughout the life cycle.
@@ -80,11 +91,33 @@
     - Specialty
     - Azure
 
+- title: 'Azure Cosmos DB Developer Specialty'
+  issuer: Microsoft
+  description: Earning Azure Cosmos DB Developer Specialty certification validates subject matter expertise in designing, implementing, and monitoring cloud-native applications that store and manage data. Candidates design and implement data models, data distribution, loading data into an Azure Cosmos DB database, and optimizing and maintaining the solution. They have solid knowledge and experience developing apps for Azure and working with Azure Cosmos DB database technologies.
+  issuerdate: 2023
+  link: https://www.credly.com/badges/d3d92664-e98a-4cfc-9d45-dcd5fc7dc550/public_url
+  level: Specialty
+  thumbnail: microsoft-certified-specialty-badge.svg
+  filters:
+    - Specialty
+    - Azure
+
 - title: 'Azure Security Engineer Associate'
   issuer: Microsoft
   description: Earning Azure Security Engineer Associate certification validates the skills and knowledge to implement security controls and threat protection, manage identity and access, and protect data, applications, and networks in cloud and hybrid environments as part of end-to-end infrastructure.
   issuerdate: 2021
   link: https://www.credly.com/badges/e74788ca-11d1-4a01-bbc8-d91e68f8333f/public_url
+  level: Associate
+  thumbnail: microsoft-certified-associate-badge.svg
+  filters:
+    - Associate
+    - Azure
+
+- title: 'Azure Network Engineer Associate'
+  issuer: Microsoft
+  description: Earning Azure Network Engineer Associate validates skills and subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services. Professionals in this role deploy networking solutions using Azure Portal and other methods, including PowerShell, Azure Command-Line Interface (CLI), and Azure Resource Manager templates (ARM templates).
+  issuerdate: 2023
+  link: https://www.credly.com/badges/ded86c5c-d762-434b-81dd-5ce3eb5451c8/public_url
   level: Associate
   thumbnail: microsoft-certified-associate-badge.svg
   filters:

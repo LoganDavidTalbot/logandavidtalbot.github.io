@@ -1,34 +1,96 @@
 ---
 title: Certifications
 layout: main
----	    
+---
+{% assign counterExpert = 0 %}
+{% for certs in site.data.certifications %}
+	{% if certs.level == 'Expert' %}
+		{% assign counterExpert = counterExpert | plus: 1 %}
+	{% endif %}									
+{% endfor %}
+{% assign counterAssociate = 0 %}
+{% for certs in site.data.certifications %}
+	{% if certs.level == 'Associate' %}
+		{% assign counterAssociate = counterAssociate | plus: 1 %}
+	{% endif %}									
+{% endfor %}
+{% assign counterSpecialty = 0 %}
+{% for certs in site.data.certifications %}
+	{% if certs.level == 'Specialty' %}
+		{% assign counterSpecialty = counterAssociate | plus: 1 %}
+	{% endif %}									
+{% endfor %}
+{% assign counterFundamentals = 0 %}
+{% for certs in site.data.certifications %}
+	{% if certs.level == 'Fundamentals' %}
+		{% assign counterFundamentals = counterFundamentals | plus: 1 %}
+	{% endif %}									
+{% endfor %}
+{% assign counterAzure = 0 %}
+{% for certs in site.data.certifications %}
+	{% for filter in certs.filters %}
+		{% if filter == 'Azure' %}
+			{% assign counterAzure = counterAzure | plus: 1 %}
+		{% endif %}		
+	{% endfor %}							
+{% endfor %}
+{% assign counterPowerPlaform = 0 %}
+{% for certs in site.data.certifications %}
+	{% for filter in certs.filters %}
+		{% if filter == 'PowerPlatform' %}
+			{% assign counterPowerPlaform = counterPowerPlaform | plus: 1 %}
+		{% endif %}		
+	{% endfor %}							
+{% endfor %}
+{% assign counterAWS = 0 %}
+{% for certs in site.data.certifications %}
+	{% for filter in certs.filters %}
+		{% if filter == 'AWS' %}
+			{% assign counterAWS = counterAWS | plus: 1 %}
+		{% endif %}		
+	{% endfor %}							
+{% endfor %}
+{% assign counterGoogleCloud = 0 %}
+{% for certs in site.data.certifications %}
+	{% for filter in certs.filters %}
+		{% if filter == 'GoogleCloud' %}
+			{% assign counterGoogleCloud = counterGoogleCloud | plus: 1 %}
+		{% endif %}		
+	{% endfor %}							
+{% endfor %}
+{% assign counterFeatured = 0 %}
+{% for certs in site.data.certifications %}
+	{% for filter in certs.filters %}
+		{% if filter == 'Featured' %}
+			{% assign counterFeatured = counterFeatured | plus: 1 %}
+		{% endif %}		
+	{% endfor %}							
+{% endfor %}
+
 <section class="cta-section theme-bg-light py-5">
 	<div class="container text-center single-col-max-width">
 		<h2 class="heading">Certifications</h2>
 		<div class="intro">
-		<p>The full list of valid certifications. Want some help building your software?</p>
-		
+		<p>The full list of valid certifications. Want some help to manage your software teans or build your software?</p>
 		</div>
-		<a class="btn btn-primary" href="{{ site.url }}/contact"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
-		
-		
+		<a class="btn btn-primary" href="{{ site.url }}/contact"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>		
 	</div><!--//container-->
 </section>
 <section class="projects-list px-3 py-5 p-md-5">
 	<div class="container">
 		<div class="text-center">
 			<ul id="filters" class="filters mb-5 mx-auto   ps-0">
-				<li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".featured">Featured</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".expert">Expert</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".specialty">Specialty</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".associate">Associate</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".fundamentals">Fundamentals</li>
+				<li class="type active mb-3 mb-lg-0" data-filter="*">All ({{ site.data.certifications.size }})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".featured">Featured ({{ counterFeatured }})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".expert">Expert ({{ counterExpert }})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".specialty">Specialty ({{ counterSpecialty }})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".associate">Associate ({{ counterAssociate }})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".fundamentals">Fundamentals ({{ counterFundamentals }})</li>
 				<br/>
-				<li class="type  mb-3 mb-lg-0" data-filter=".azure">Azure</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".aws">Amazon Web Services</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".googlecloud">Google Cloud</li>
-				<li class="type  mb-3 mb-lg-0" data-filter=".powerplatform">Power Platform</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".azure">Azure ({{ counterAzure }})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".aws">Amazon Web Services ({{ counterAWS}})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".googlecloud">Google Cloud ({{ counterGoogleCloud }})</li>
+				<li class="type  mb-3 mb-lg-0" data-filter=".powerplatform">Power Platform ({{ counterPowerPlaform }})</li>
 			</ul><!--//filters-->
 			
 		</div>
