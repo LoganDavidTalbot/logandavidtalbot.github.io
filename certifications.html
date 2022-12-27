@@ -17,7 +17,7 @@ layout: main
 {% assign counterSpecialty = 0 %}
 {% for certs in site.data.certifications %}
 	{% if certs.level == 'Specialty' %}
-		{% assign counterSpecialty = counterAssociate | plus: 1 %}
+		{% assign counterSpecialty = counterSpecialty | plus: 1 %}
 	{% endif %}									
 {% endfor %}
 {% assign counterFundamentals = 0 %}
