@@ -30,9 +30,15 @@
 
 - value: Architecting Cloud Applications
   icon: fas fa-project-diagram
-  text: Architecting secure applications to clients needs on Microsoft's Cloud Solutions.
+  text: Architecting secure applications to clients needs with Microsoft Cloud Solutions.
   type: Technical
   core: true
+
+- value: Software Engineering
+  icon: fas fa-project-diagram
+  text: Leading on software, DevOps, and platform engineering best practices.
+  type: Technical
+  core: false
 
 - value: Leading project development
   icon: fas fa-route
@@ -46,11 +52,17 @@
   type: Professional
   core: true
 
+- value: Leadership
+  icon: fas fa-arrow-alt-circle-up
+  text: Ability to to "lead", influence or guide other individuals, teams, and entire organizations. 
+  type: Professional
+  core: true
+
 - value: Improvement of others
   icon: fas fa-award
   text: Leading efforts to improvement certifications and training of colleagues.
   type: Professional
-  core: true
+  core: false
 
 - value: Presentation
   icon: fas fa-award
