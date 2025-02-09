@@ -4,25 +4,19 @@
   type: Technical
   core: true
 
-- value: Power Platform
-  icon: fas fa-cloud
-  text: Using the Power Platform to architect complex business cloud applications.  
-  type: Technical
-  core: false
-
 - value: Azure DevOps
   icon: fas fa-code-branch
   text: Creating CI & CD pipelines to manage and deploy applications and Azure services.
   type: Technical
   core: true
 
-- value: .NET & C#
+- value: .NET & Python
   icon: fas fa-code
-  text: Bespoke .NET RESTful server-side applications.  
+  text: Bespoke .NET & Python intelligent applications.  
   type: Technical
   core: true
 
-- value: AI Services
+- value: AI & GenAI
   icon: fas fa-robot
   text: Incorporating artificial intelligence into cloud applications. 
   type: Technical

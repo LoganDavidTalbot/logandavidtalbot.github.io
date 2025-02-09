@@ -2,7 +2,7 @@
   issuer: Microsoft
   description: 'Many of Microsoft’s software and technologies are technically complex, and professionals may require training from knowledgeable trainers in aspects of their use. In order to make such training generally available, Microsoft has developed the Microsoft Certified Trainer (MCT) Program which grants membership to professional trainers and learning consultants who demonstrate and maintain technical and instructional expertise on Microsoft technologies and who have complied with all requirements.'
   issuerdate: 2023
-  link: https://www.credly.com/badges/aa97969b-9ee3-4029-a007-0a7e360594b7/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Other
   thumbnail: microsoft-certified-trainer-2023-2024.png
   filters:
@@ -13,7 +13,7 @@
   issuer: Microsoft
   description: Earning the Azure Solutions Architect Expert certification demonstrates skills and knowledge to advise stakeholders and translate business requirements into secure, scalable, and reliable solutions. Candidates have advanced experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance–this role should manage how decisions in each area affect an overall solution.
   issuerdate: 2021
-  link: https://www.credly.com/badges/1fe3df0e-21a3-4ad8-8904-87b599c2248d/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Expert
   thumbnail: microsoft-certified-expert-badge.svg
   filters:
@@ -25,7 +25,7 @@
   issuer: Microsoft
   description: Earning Cybersecurity Architect Expert validates subject matter expertise in designing and evolving the cybersecurity strategy to protect an organization’s mission and business processes across all aspects of the enterprise architecture.
   issuerdate: 2022
-  link: https://www.credly.com/badges/8102e350-5176-42d3-ae72-764ebe4f9036/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Expert
   thumbnail: microsoft-certified-expert-badge.svg
   filters:
@@ -37,7 +37,7 @@
   issuer: Microsoft
   description: Earning the DevOps Engineer Expert certification demonstrates the ability to combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives. DevOps professionals streamline delivery by optimizing practices, improving communications and collaboration, and creating automation.
   issuerdate: 2020
-  link: https://www.credly.com/badges/0e900faf-4f36-48f3-a449-53077fc9ab75/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Expert
   thumbnail: microsoft-certified-expert-badge.svg
   filters:
@@ -49,13 +49,12 @@
   issuer: Microsoft
   description: Earning the Power Platform Solution Architect Expert certification demonstrates functional and technical knowledge of Power Platform, Dynamics 365 customer engagement apps, related Microsoft cloud solutions, and third-party technologies.
   issuerdate: 2021
-  link: https://www.credly.com/badges/86757255-dd1b-4f18-bd05-afc4c2e67888/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Expert
   thumbnail: microsoft-certified-expert-badge.svg
   filters:
     - Expert
-    - PowerPlatform
-    - Featured
+    - PowerPlatform    
 
 - title: 'AWS Certified Solutions Architect – Associate'
   issuer: Amazon Web Services
@@ -67,7 +66,6 @@
   filters:
     - Associate
     - AWS
-    - Featured
 
 - title: 'HashiCorp Certified: Terraform Associate'
   issuer: HashiCorp
@@ -84,7 +82,7 @@
   issuer: Microsoft
   description: Earning the Azure IoT Developer Specialty certification validates experience and knowledge for the implementation and the coding required to create and maintain the cloud and edge portion of an IoT solution. In addition to configuring and maintaining the devices by using cloud services, the IoT Developer also sets up the physical devices. The IoT Developer is responsible for maintaining the devices throughout the life cycle.
   issuerdate: 2022
-  link: https://www.credly.com/badges/afb1eb29-57f6-4ab0-b0e4-79094e5c5398/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Specialty
   thumbnail: microsoft-certified-specialty-badge.svg
   filters:
@@ -95,7 +93,7 @@
   issuer: Microsoft
   description: Earning Azure Cosmos DB Developer Specialty certification validates subject matter expertise in designing, implementing, and monitoring cloud-native applications that store and manage data. Candidates design and implement data models, data distribution, loading data into an Azure Cosmos DB database, and optimizing and maintaining the solution. They have solid knowledge and experience developing apps for Azure and working with Azure Cosmos DB database technologies.
   issuerdate: 2023
-  link: https://www.credly.com/badges/d3d92664-e98a-4cfc-9d45-dcd5fc7dc550/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Specialty
   thumbnail: microsoft-certified-specialty-badge.svg
   filters:
@@ -106,7 +104,7 @@
   issuer: Microsoft
   description: Earning Azure Security Engineer Associate certification validates the skills and knowledge to implement security controls and threat protection, manage identity and access, and protect data, applications, and networks in cloud and hybrid environments as part of end-to-end infrastructure.
   issuerdate: 2021
-  link: https://www.credly.com/badges/e74788ca-11d1-4a01-bbc8-d91e68f8333f/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Associate
   thumbnail: microsoft-certified-associate-badge.svg
   filters:
@@ -117,7 +115,7 @@
   issuer: Microsoft
   description: Earning Azure Network Engineer Associate validates skills and subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services. Professionals in this role deploy networking solutions using Azure Portal and other methods, including PowerShell, Azure Command-Line Interface (CLI), and Azure Resource Manager templates (ARM templates).
   issuerdate: 2023
-  link: https://www.credly.com/badges/ded86c5c-d762-434b-81dd-5ce3eb5451c8/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Associate
   thumbnail: microsoft-certified-associate-badge.svg
   filters:
@@ -128,7 +126,7 @@
   issuer: Microsoft
   description: Earning Azure Administrator Associate certification validates the skills and knowledge to implement, manage, and monitor an organization’s Microsoft Azure environment. Candidates have a deep understanding of each implementing, managing, and monitoring identity, governance, storage, compute, and virtual networks in a cloud environment, plus provision, size, monitor, and adjust resources, when needed.
   issuerdate: 2021
-  link: https://www.credly.com/badges/900e3828-ff60-40b4-8063-6052635803a1/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Associate
   thumbnail: microsoft-certified-associate-badge.svg
   filters:
@@ -145,12 +143,13 @@
   filters:
     - Associate
     - Azure
+    - featured
 
 - title: 'Azure Developer Associate'
   issuer: Microsoft
   description: Earning Azure Developer Associate certification validates the skills and knowledge to design, build, test, and maintain cloud applications and services on Microsoft Azure. Candidates participate in all phases of cloud development from requirements definition and design, to development, deployment, and maintenance.
   issuerdate: 2020
-  link: https://www.credly.com/badges/7a27043e-69c0-4665-94ee-2700d9313134/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Associate
   thumbnail: microsoft-certified-associate-badge.svg
   filters:
@@ -161,7 +160,7 @@
   issuer: Microsoft
   description: Earning Power Platform Functional Consultant Associate certification validates the skills and applied knowledge of the Power Platform, including a practical understanding of capabilities, boundaries, and constraints. Candidates have experience in using Power Platform maker tools to create solutions that use the Power Platform and Microsoft 365. Certified Functional Consultants have proficiency in data modeling, user experience design, requirements analysis, and process analysis.
   issuerdate: 2021
-  link: https://www.credly.com/badges/1af32fca-49a1-490d-afa2-35f10f5e0aa3/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Associate
   thumbnail: microsoft-certified-associate-badge.svg
   filters:
@@ -183,7 +182,7 @@
   issuer: Microsoft
   description: Earners of the Azure Data Fundamentals certification have demonstrated foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
   issuerdate: 2020
-  link: https://www.credly.com/badges/16022105-1b59-4833-8454-ab6afcc6d515/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Fundamentals
   thumbnail: microsoft-certified-fundamentals-badge.svg
   filters:
@@ -194,7 +193,7 @@
   issuer: Microsoft
   description: Earners of the Azure AI Fundamentals certification have demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.
   issuerdate: 2020
-  link: https://www.credly.com/badges/5021ad31-b2d3-49ab-ac57-cefc387b9894/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Fundamentals
   thumbnail: microsoft-certified-fundamentals-badge.svg
   filters:
@@ -205,7 +204,7 @@
   issuer: Microsoft
   description: Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.
   issuerdate: 2019
-  link: https://www.credly.com/badges/c14a65e9-1bbd-4a19-a573-72b7f6f7d0db/public_url
+  link: https://learn.microsoft.com/en-us/users/logantalbot/transcript/dl9xjtypy6jz236
   level: Fundamentals
   thumbnail: microsoft-certified-fundamentals-badge.svg
   filters:

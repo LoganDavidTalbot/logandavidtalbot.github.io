@@ -1,20 +1,38 @@
+- title: Senior Solution Architect
+  employer: Capgemini
+  from: 2023
+  to: Present
+  description: >-
+    Providing technical leadership in driving Azure cloud strategies and intelligent application modernization.
+    Leads initiatives to integrate AI-driven approaches into legacy system transformations.
+  points:
+    - "Azure Innovation & AI Lead: Leading innovation and AI strategy for a sub-practice within the Capgemini UK business unit."
+    - "Hyper-scaler Lead: Providing technical leadership for Capgemini's global Cloud & Custom Application business unit, focusing on transforming legacy applications into intelligent, modern solutions for major hyper-scalers."
+    - "Architecture"
+- title: Software Engineering Manager
+  employer: Capgemini
+  from: 2023
+  to: Present
+  description: >-
+    Leading a team of software engineers to deliver high-quality, innovative solutions for Capgemini's clients.
+    Responsible for the technical direction of the team, ensuring that they are up-to-date with the latest technologies and methodologies.
+  points:
+   - "People Management: Managing engineers across all levels, from junior to senior, to ensure they are working effectively and efficiently. Including conducting performance reviews, probations and setting goals."
+   - "Hiring Manager: Conducted interviews for engineers across all levels, in roles of a Solution Architect, Software Engineer, and DevOps Engineer."
 - title: Senior Software Engineer
   employer: Capgemini
   from: 2021
-  to: Present
+  to: 2023
   description: >-
     Logan drives strategy and innovation to support and improve business capabilities, processes, and applications 
     in the Cloud for a variety of Capgemini’s clients. Supporting them in adopting or advancing their use of Microsoft Cloud services. 
     Logan will architect and lead the implementation of solutions ensuring than applications are delivered to clients high expectations. 
   points:
-    - Technical Lead Developer, Leading the implementation of full stack applications (including DevOps).
-    - Cloud Architect, Architecting secure cloud based solutions on Microsoft Cloud. 
-    - Engineering Manager, Managing team(s) of software engineers.
-    - >- 
-      Training & Certification Lead, Leading internal initiatives to help develop and improve the business unit. 
-      For example, leading of training initiative which aims to increase certification and training.
-    - Hiring Manger for interviewing engineers of all levels for Azure and .NET engineering roles.
-
+    - "Technical Lead Developer: Oversaw full-stack application implementations, including DevOps practices."
+    - "Cloud Architect: Engineered secure, scalable solutions on Microsoft Cloud."
+    - "Engineering Manager: Directed software engineering teams to achieve high-quality deliverables."
+    - "Training & Certification Lead: Spearheaded initiatives to enhance internal skills, such as certification and targeted training programs."
+    - "Hiring Manager: Conducted interviews for engineers across all levels, emphasizing Azure and .NET expertise."
 - title: Software Engineer
   employer: Capgemini
   from: 2017

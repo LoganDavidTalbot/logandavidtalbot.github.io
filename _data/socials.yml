@@ -13,7 +13,7 @@
   location: sidebar
   class: linkedin 
   resume:
-    text: github.com/LoganDavidTalbot
+    text: github.com/LoganDavidTalbotlinkedin.com/in/logandavidtalbot
     icon: fa-linkedin
 
 - name: GitHub
@@ -22,7 +22,7 @@
   location: sidebar
   class: github
   resume:
-    text: linkedin.com/in/logandavidtalbot
+    text: github.com/LoganDavidTalbot
     icon: fa-github-square
 
 
