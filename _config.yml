@@ -21,7 +21,7 @@
 title: Logan Talbot
 email: logan@logantalbot.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Logan Talbot is software engineer from the United Kingdom. Specialising in software development and architecture in the Azure and .NET technologies.
+  Logan Talbot is a Senior Solution Architect specialized in App Modernization & AI for complex scalable intelligent applications in the Microsoft Cloud.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: logandtalbot
